@@ -1,11 +1,15 @@
 import Link from "next/link";
-import { FaGithub, FaLinkedinIn, FaYoutube, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 const socials = [
-  { icon: <FaGithub />, path: "" },
-  { icon: <FaLinkedinIn />, path: "" },
-  { icon: <FaYoutube />, path: "" },
-  { icon: <FaTwitter />, path: "" },
+  { icon: <FaGithub />, path: "https://github.com/EstifanosTaye320" },
+  {
+    icon: <FaLinkedinIn />,
+    path: "www.linkedin.com/in/estifanos-taye-24b917288",
+  },
+  { icon: <SiLeetcode />, path: "https://leetcode.com/u/Estifanos-Taye/" },
+  // { icon: <FaTwitter />, path: "" },
 ];
 
 const Socials = ({ containerStyles, iconStyles }) => {
